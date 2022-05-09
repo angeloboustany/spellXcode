@@ -1,7 +1,6 @@
 import React from "react";
 import { Hnavbar } from '../../components';
 
-
 function Calendar() {
   return (
     <div>
