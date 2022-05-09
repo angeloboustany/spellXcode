@@ -1,0 +1,8 @@
+.card-body{
+    position: relative;
+    background-color: var(--color-dark);
+    padding: 5em;
+}
+.badge{
+    padding-bottom: 5em;
+}

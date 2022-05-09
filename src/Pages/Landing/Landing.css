@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: var(--color-bg);
+  }
+  
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+  
+  .gradient__bg 
+  {
+    background:-moz-linear-gradient(177deg, rgba(238, 108, 77, 1) 0%, rgba(4, 12, 24, 1) 85%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(177deg, rgba(238, 108, 77, 1) 0%, rgba(4, 12, 24, 1) 85%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(177deg, rgba(238, 108, 77, 1) 0%, rgba(4, 12, 24, 1) 85%);
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(177deg, rgba(238, 108, 77, 1) 0%, rgba(4, 12, 24, 1) 85%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(177deg, rgba(238, 108, 77, 1) 0%, rgba(4, 12, 24, 1) 85%);
+
+}
+  
+  .gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .section__padding {
+    padding: 1rem 6rem;
+  }
+  
+  .section__margin {
+    margin: 4rem 6rem;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .section__padding {
+      padding: 4rem;
+    }
+  
+    .section__margin {
+      margin: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+  
+    .section__margin {
+      margin: 4rem 2rem;
+    }  
+  }

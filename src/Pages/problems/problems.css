@@ -1,0 +1,31 @@
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.FlexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Solve{
+    position: sticky;
+    position: -webkit-sticky;
+    height: 10%;
+    width: 40%;
+    padding: 1em;
+    color: #e0fbfc;
+}
+
+.Probs{
+    height: 10%;
+    width: 60%;
+    padding: 1em;
+    top: 0;
+}

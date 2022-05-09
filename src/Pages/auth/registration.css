@@ -1,0 +1,25 @@
+#page-container{
+    background: var(--color-bg);
+}
+
+#content-body{
+    margin-top: 2em;
+}
+
+#submit{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+#imgprofile{
+    text-align: -moz-center;
+}

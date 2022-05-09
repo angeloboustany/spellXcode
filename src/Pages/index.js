@@ -1,0 +1,15 @@
+export {default as Problems} from './problems/Problems';
+export {default as Leaderboard} from './leaderboard/Leaderboard';
+export {default as PrivacyPolicy} from './PrivacyTerms/PrivacyPolicy';
+export {default as TermOfService} from './PrivacyTerms/TermOfService';
+export {default as Contest} from './contest/Contest';
+export {default as Help} from './help/Help';
+export {default as Error} from './error/Error';
+export {default as Home} from './home/Home';
+export {default as Calendar} from './calendar/Calendar';
+export {default as About} from './about/About';
+export {default as Contact} from './contact/Contact';
+export {default as Login} from './auth/login';
+export {default as Registration} from './auth/registration';
+export {default as Auth} from './auth/auth';
+export {default as SolveProblem} from './problems/solveProblem';
